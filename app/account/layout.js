@@ -1,4 +1,5 @@
 import SideNavigation from "@/app/_components/SideNavigation";
+export const runtime = "edge";
 
 function layout({ children }) {
   return (

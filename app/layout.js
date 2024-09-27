@@ -4,6 +4,7 @@ import { ReservationProvider } from "@/app/_components/ReservationContext";
 import { Josefin_Sans } from "next/font/google";
 import "@/app/_styles/globals.css";
 import Header from "@/starter/components/Header";
+export const runtime = "edge";
 
 const josefin = Josefin_Sans({
   subsets: ["latin"],
